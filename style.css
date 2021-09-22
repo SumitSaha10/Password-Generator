@@ -1,0 +1,70 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: sans-serif;
+}
+
+body{
+    background: url('image/back.png');
+    background-size: cover;
+}
+.messege{
+    display: flex;
+    background: rgb(141, 250, 33);
+    padding: 0.5rem;
+    display: none;
+}
+
+.messege p{
+   font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.generator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding: 1rem;
+
+}
+h3{
+    text-transform: uppercase;
+}
+input{
+    margin-top: 1rem;
+    font-size: 17px;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btns1{
+    padding: 0.35rem;
+    background-color: rgb(49, 76, 230);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+@media(max-width:355px){
+    h3{
+        font-size: 1rem;
+    }
+}
